@@ -1,7 +1,9 @@
 <script setup>
-import HelloWorld from "./view/MainView.vue";
+import MainView from "./view/MainView.vue";
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="p-4">
+    <MainView />
+  </div>
 </template>
